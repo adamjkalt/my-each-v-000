@@ -1,4 +1,4 @@
-def my_each # put argument(s) here
+def my_each(array) # put argument(s) here
   # code here
 end
 
@@ -14,8 +14,6 @@ def hello_t(array)
   puts "Hey! No block was given!"
 end
 end
-
-# call your method here!
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
   if name.start_with?("T")
