@@ -1,8 +1,5 @@
-def my_each(array) # put argument(s) here
-  # code here
-end
+def my_each(array) 
 
-def hello_t(array)
   if block_given?
   i = 0
     while i < array.length
